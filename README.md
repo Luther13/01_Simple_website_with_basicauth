@@ -1,5 +1,6 @@
 # Project description
 A simple project done as a homework for PythonLevelUp course. The running website can be found here: http://cinek-pd2.herokuapp.com
+
 Description of tasks undertaken (in Polish):
 
 Zadanie
@@ -7,9 +8,10 @@ Twój znajomy jest fanatykiem wędkarsktwa. Zlecił Ci przygotowanie portalu na 
 
 Wykonaj endpointy według poniższych wymagań:
 
-/
+## /
 GET Zwracamy dowolną treść. Ważne aby serwer odpowiadał na tej ścieżce.
-/login
+
+## /login
 POST
 
 Jeżeli macie ochotę, możecie dodać obsługę metody GET ułatwi Wam to testowanie aplikacji z poziomu przeglądarki. Sprawdzarka nie weźmie jej pod uwagę.
@@ -22,7 +24,7 @@ Uwaga: Celowo pomijamy rejestrowanie nowego użytkownika
 
 Jeżeli użytkownik jest już zalogowany, przekieruj na /hello.
 
-/logout
+## /logout
 Do tego endpointu mają dostęp tylko zalogowani użytkownicy. Jeżeli użytkownik nie jest zalogowany, przekieruj na /login.
 
 POST Wyloguje aktualnego użytkownika z aplikacji uniemożliwiając mu dostęp do żadnego endpointu poza / i /login.
@@ -31,11 +33,12 @@ Jeżeli macie ochotę, możecie dodać obsługę metody GET ułatwi Wam to testo
 
 Pamiętaj, aby po wylogowaniu nie przekierowywać na /login, zamiast tego przekieruj na /.
 
-/hello
+## /hello
 Do tego endpointu mają dostęp tylko zalogowani użytkownicy. Jeżeli użytkownik nie jest zalogowany, przekieruj na /login.
 
 GET Po zalogowaniu użytkownik powinien zostać przekierowany na ten endpoint. Template niech zawiera element o "id=greeting". Format powitania: Hello, {user}!
-/fishes
+
+## /fishes
 Do tego endpointu mają dostęp tylko zalogowani użytkownicy. Jeżeli użytkownik nie jest zalogowany, przekieruj na /login.
 
 GET Wylistuje dane wszystkich ryb z ich identyfikatorami. Identyfikatory oczywiście takie jakie im przypisaliście podczas ich tworzenia w metodzie POST.
@@ -80,7 +83,8 @@ Pomyślne dodanie nowej rybki zakończone powinno być przekierowaniem użytkown
     "length": 23.67,
     "kind": "szczupak"
 }
-/fishes/<id>
+
+## /fishes/<id>
 Do tego endpointu mają dostęp tylko zalogowani użytkownicy. Jeżeli użytkownik nie jest zalogowany, przekieruj na /login.
 
 GET Zwraca info danej rybki.
