@@ -1,5 +1,7 @@
 # Project description
-A simple project done as a homework for PythonLevelUp course. The running website can be found here: http://cinek-pd2.herokuapp.com
+A simple project done as a homework for PythonLevelUp course. 
+
+The running website can be found here: http://cinek-pd2.herokuapp.com
 
 Description of tasks undertaken (in Polish):
 
