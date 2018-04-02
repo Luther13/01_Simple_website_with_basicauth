@@ -1,1 +1,0 @@
-web: gunicorn pd2:pd2
